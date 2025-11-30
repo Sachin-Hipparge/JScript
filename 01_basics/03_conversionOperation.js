@@ -1,7 +1,7 @@
 let score = "hitesh"
 
-//console.log(typeof score);
-//console.log(typeof(score));
+console.log(typeof score);
+console.log(typeof(score));
 
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
@@ -15,7 +15,7 @@ let valueInNumber = Number(score)
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+ console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
@@ -31,12 +31,12 @@ let stringNumber = String(someNumber)
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+console.log(negValue);   //op -3
 
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3);   op 8
 // console.log(2/3);
 // console.log(2%3);
 
@@ -70,7 +70,7 @@ let gameCounter = 100
 
 let a=4
 const b= ++a
-//console.log(a , b);
+console.log(a , b);
 
 let x=4
 const y= x++

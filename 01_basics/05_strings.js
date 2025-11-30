@@ -8,13 +8,17 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);    //
 const gameName = new String('hitesh-hc-com')  // declaring string 
 
 // console.log(gameName[0]);    op h
-// console.log(gameName.__proto__);    op {} 
+// console.log(gameName.__proto__);    op {} //here it points to prototype where all inherited methods are present
+/* It works, but it's older and not recommended.
+The recommended way is:
+
+Object.getPrototypeOf(gameName);  */
 
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+// console.log(gameName.charAt(2));
+// console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)  // op hite  cant provide  nega value
 console.log(newString);

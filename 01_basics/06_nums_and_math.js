@@ -1,7 +1,7 @@
 const score = 400
 // console.log(score);
 
-const balance = new Number(100)
+const balance = new Number(100)    // You are creating a Number object (a wrapper object), not a primitive.
 // console.log(balance);        op number :100
 
 // console.log(balance.toString().length);     // converts number to string   and meaures its lenght
@@ -16,13 +16,13 @@ const hundreds = 1000000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
-// console.log(Math);
-// console.log(Math.abs(-4));
-// console.log(Math.round(4.6));
-// console.log(Math.ceil(4.2));
-// console.log(Math.floor(4.9));
-// console.log(Math.min(4, 3, 6, 8));
-// console.log(Math.max(4, 3, 6, 8));
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(4.6));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
+console.log(Math.min(4, 3, 6, 8));
+console.log(Math.max(4, 3, 6, 8));
 
 console.log(Math.random());             //op  values get between 0 and 1 
 console.log((Math.random()*10) + 1);       
